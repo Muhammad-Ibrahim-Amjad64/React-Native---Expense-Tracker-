@@ -120,7 +120,7 @@ onCancel, onSubmit, defaultValues }) {
           label="Date"
           invalid={!inputs.date.isValid}
           textInputConfig={{
-            placeholder: 'YYYY-MM-DD',
+            placeholder: 'YYYY/MM/DD',
             maxLength: 10,
             onChangeText: inputChangedHandler.bind(this, 'date'),
             value: inputs.date.value,
